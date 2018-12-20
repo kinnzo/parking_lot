@@ -21,4 +21,4 @@ Place the frozen_inference_graph.pb file for MobileSSD trained on COCO Dataset i
 ```
 python3 main.py src/img/input.jpg dst/img/output.jpg
 ```
-The output in the terminal shows the number of available parking slots by matching the processed image map and the map created by the user using the GUI. The operation takes the average area of bounding boxes of the vehicles to do so. 
+The output in the terminal shows the number of available parking slots by matching the processed image map and the map created by the user using the GUI. The operation takes the average area of bounding boxes of the vehicles to compute the number of unoccupied slots. 
